@@ -21,15 +21,21 @@ WebUI.click(findTestObject('Page_Homepage  Kimia Farma/cart_icon'))
 
 WebUI.click(findTestObject('Page_My Cart  Kimia Farma/tambahBarang_icon'))
 
-WebUI.click(findTestObject('Page_My Cart  Kimia Farma/BayarButton_ToShipping'))
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/button_GunakanVoucher'))
+
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/buttonKupon_ECommerce'))
+
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/button_VerifyGunakan'))
+
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/BayarButton_ToShipping(Voucher)'))
 
 WebUI.click(findTestObject('Page_Shipping Address  Kimia Farma/BayarButton_ToPayment'))
 
-WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/label_OVO'))
+WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/label_Virtual Account'))
 
 WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/a_Bayar'))
 
-WebUI.setText(findTestObject('Page_Checkout Payment  Kimia Farma/input_NoHandphone'), '0800000000000', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByLabel(findTestObject('Page_Checkout Payment  Kimia Farma/select_PilihBank'), 'Mandiri', false)
 
 WebUI.click(findTestObject('Page_Checkout Payment  Kimia Farma/button_Proses'))
 

@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/label_Virtual Accou
 
 WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/a_Bayar'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Checkout Payment  Kimia Farma/select_PilihBank'), 'Mandiri', true)
+WebUI.selectOptionByLabel(findTestObject('Page_Checkout Payment  Kimia Farma/select_PilihBank'), 'Mandiri', false)
 
 WebUI.click(findTestObject('Page_Checkout Payment  Kimia Farma/button_Proses'))
 

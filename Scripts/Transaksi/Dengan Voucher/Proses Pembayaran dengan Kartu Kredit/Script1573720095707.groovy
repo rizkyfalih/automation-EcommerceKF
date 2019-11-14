@@ -21,15 +21,29 @@ WebUI.click(findTestObject('Page_Homepage  Kimia Farma/cart_icon'))
 
 WebUI.click(findTestObject('Page_My Cart  Kimia Farma/tambahBarang_icon'))
 
-WebUI.click(findTestObject('Page_My Cart  Kimia Farma/BayarButton_ToShipping'))
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/button_GunakanVoucher'))
+
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/buttonKupon_ECommerce'))
+
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/button_VerifyGunakan'))
+
+WebUI.click(findTestObject('Page_My Cart  Kimia Farma/BayarButton_ToShipping(Voucher)'))
 
 WebUI.click(findTestObject('Page_Shipping Address  Kimia Farma/BayarButton_ToPayment'))
 
-WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/label_OVO'))
+WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/label_Credit Card'))
 
 WebUI.click(findTestObject('Page_Payment Method  Kimia Farma/a_Bayar'))
 
-WebUI.setText(findTestObject('Page_Checkout Payment  Kimia Farma/input_NoHandphone'), '0800000000000', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Page_Checkout Payment  Kimia Farma/input_CardholderName'), 'Bunga')
+
+WebUI.setText(findTestObject('Page_Checkout Payment  Kimia Farma/input_CardNumber'), '5698788894560021')
+
+WebUI.setText(findTestObject('Page_Checkout Payment  Kimia Farma/input_CVVNumber'), '588')
+
+WebUI.setText(findTestObject('Page_Checkout Payment  Kimia Farma/input_ExpiryDateMonth'), '22')
+
+WebUI.setText(findTestObject('Page_Checkout Payment  Kimia Farma/input_ExpiryDateYear'), '23')
 
 WebUI.click(findTestObject('Page_Checkout Payment  Kimia Farma/button_Proses'))
 

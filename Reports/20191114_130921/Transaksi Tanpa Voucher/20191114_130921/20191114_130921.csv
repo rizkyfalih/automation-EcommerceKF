@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaksi Tanpa Voucher,Chrome 78.0.3904.97,,,2019-11-14 13:09:29,2019-11-14 13:14:05,4m - 36.246s,PASSED
+,,,,,,,
+Test Cases/Transaksi/Tanpa Voucher/Proses Pembayaran degan E-Wallet,Chrome 78.0.3904.97,,,2019-11-14 13:09:29,2019-11-14 13:11:13,1m - 44.111s,PASSED
+"callTestCase(findTestCase(""Keranjang/AddCart_ByIcon""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2019-11-14 13:09:29,2019-11-14 13:10:30,1m - 0.999s,PASSED
+"click(findTestObject(""Page_Homepage  Kimia Farma/cart_icon""))",Chrome 78.0.3904.97,,,2019-11-14 13:10:30,2019-11-14 13:10:34,3.876s,PASSED
+"click(findTestObject(""Page_My Cart  Kimia Farma/tambahBarang_icon""))",Chrome 78.0.3904.97,,,2019-11-14 13:10:34,2019-11-14 13:10:36,1.728s,PASSED
+"click(findTestObject(""Page_My Cart  Kimia Farma/BayarButton_ToShipping""))",Chrome 78.0.3904.97,,,2019-11-14 13:10:36,2019-11-14 13:10:40,4.239s,PASSED
+"click(findTestObject(""Page_Shipping Address  Kimia Farma/BayarButton_ToPayment""))",Chrome 78.0.3904.97,,,2019-11-14 13:10:40,2019-11-14 13:10:44,3.632s,PASSED
+"click(findTestObject(""Page_Payment Method  Kimia Farma/label_OVO""))",Chrome 78.0.3904.97,,,2019-11-14 13:10:44,2019-11-14 13:10:44,0.748s,PASSED
+"click(findTestObject(""Page_Payment Method  Kimia Farma/a_Bayar""))",Chrome 78.0.3904.97,,,2019-11-14 13:10:44,2019-11-14 13:10:48,4.158s,PASSED
+"setText(findTestObject(""Page_Checkout Payment  Kimia Farma/input_NoHandphone""), ""0800000000000"", STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2019-11-14 13:10:48,2019-11-14 13:10:49,0.713s,PASSED
+"click(findTestObject(""Page_Checkout Payment  Kimia Farma/button_Proses""))",Chrome 78.0.3904.97,,,2019-11-14 13:10:49,2019-11-14 13:11:13,23.852s,PASSED
+,,,,,,,
+Test Cases/Transaksi/Tanpa Voucher/Proses Pembayaran dengan Kartu Kredit,Chrome 78.0.3904.97,,,2019-11-14 13:11:13,2019-11-14 13:13:00,1m - 47.449s,PASSED
+"callTestCase(findTestCase(""Keranjang/AddCart_ByIcon""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2019-11-14 13:11:13,2019-11-14 13:12:22,1m - 8.420s,PASSED
+"click(findTestObject(""Page_Homepage  Kimia Farma/cart_icon""))",Chrome 78.0.3904.97,,,2019-11-14 13:12:22,2019-11-14 13:12:24,2.398s,PASSED
+"click(findTestObject(""Page_My Cart  Kimia Farma/tambahBarang_icon""))",Chrome 78.0.3904.97,,,2019-11-14 13:12:24,2019-11-14 13:12:25,1.299s,PASSED
+"click(findTestObject(""Page_My Cart  Kimia Farma/BayarButton_ToShipping""))",Chrome 78.0.3904.97,,,2019-11-14 13:12:25,2019-11-14 13:12:29,3.615s,PASSED
+"click(findTestObject(""Page_Shipping Address  Kimia Farma/BayarButton_ToPayment""))",Chrome 78.0.3904.97,,,2019-11-14 13:12:29,2019-11-14 13:12:32,2.675s,PASSED
+"click(findTestObject(""Page_Payment Method  Kimia Farma/label_Credit Card""))",Chrome 78.0.3904.97,,,2019-11-14 13:12:32,2019-11-14 13:12:32,0.725s,PASSED
+"click(findTestObject(""Page_Payment Method  Kimia Farma/a_Bayar""))",Chrome 78.0.3904.97,,,2019-11-14 13:12:32,2019-11-14 13:12:35,3.125s,PASSED
+"setText(findTestObject(""Page_Checkout Payment  Kimia Farma/input_CardholderName""), ""Bunga"")",Chrome 78.0.3904.97,,,2019-11-14 13:12:35,2019-11-14 13:12:36,0.741s,PASSED
+"setText(findTestObject(""Page_Checkout Payment  Kimia Farma/input_CardNumber""), ""5698788894560021"")",Chrome 78.0.3904.97,,,2019-11-14 13:12:36,2019-11-14 13:12:36,0.371s,PASSED
+"setText(findTestObject(""Page_Checkout Payment  Kimia Farma/input_CVVNumber""), ""588"")",Chrome 78.0.3904.97,,,2019-11-14 13:12:36,2019-11-14 13:12:37,0.517s,PASSED
+"setText(findTestObject(""Page_Checkout Payment  Kimia Farma/input_ExpiryDateMonth""), ""22"")",Chrome 78.0.3904.97,,,2019-11-14 13:12:37,2019-11-14 13:12:37,0.339s,PASSED
+"setText(findTestObject(""Page_Checkout Payment  Kimia Farma/input_ExpiryDateYear""), ""23"")",Chrome 78.0.3904.97,,,2019-11-14 13:12:37,2019-11-14 13:12:38,0.342s,PASSED
+"click(findTestObject(""Page_Checkout Payment  Kimia Farma/button_Proses""))",Chrome 78.0.3904.97,,,2019-11-14 13:12:38,2019-11-14 13:13:00,22.756s,PASSED
+,,,,,,,
+Test Cases/Transaksi/Tanpa Voucher/Proses Pembayaran dengan Virtual Account,Chrome 78.0.3904.97,,,2019-11-14 13:13:00,2019-11-14 13:14:05,1m - 4.504s,PASSED
+"callTestCase(findTestCase(""Keranjang/AddCart_ByIcon""), [:], STOP_ON_FAILURE)",Chrome 78.0.3904.97,,,2019-11-14 13:13:01,2019-11-14 13:13:49,48.622s,PASSED
+"click(findTestObject(""Page_Homepage  Kimia Farma/cart_icon""))",Chrome 78.0.3904.97,,,2019-11-14 13:13:49,2019-11-14 13:13:52,2.615s,PASSED
+"click(findTestObject(""Page_My Cart  Kimia Farma/tambahBarang_icon""))",Chrome 78.0.3904.97,,,2019-11-14 13:13:52,2019-11-14 13:13:53,1.210s,PASSED
+"click(findTestObject(""Page_My Cart  Kimia Farma/BayarButton_ToShipping""))",Chrome 78.0.3904.97,,,2019-11-14 13:13:53,2019-11-14 13:13:56,3.434s,PASSED
+"click(findTestObject(""Page_Shipping Address  Kimia Farma/BayarButton_ToPayment""))",Chrome 78.0.3904.97,,,2019-11-14 13:13:56,2019-11-14 13:13:59,2.808s,PASSED
+"click(findTestObject(""Page_Payment Method  Kimia Farma/label_Virtual Account""))",Chrome 78.0.3904.97,,,2019-11-14 13:13:59,2019-11-14 13:14:00,0.696s,PASSED
+"click(findTestObject(""Page_Payment Method  Kimia Farma/a_Bayar""))",Chrome 78.0.3904.97,,,2019-11-14 13:14:00,2019-11-14 13:14:03,3.109s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Checkout Payment  Kimia Farma/select_PilihBank""), ""Mandiri"", false)",Chrome 78.0.3904.97,,,2019-11-14 13:14:03,2019-11-14 13:14:04,0.868s,PASSED
+"click(findTestObject(""Page_Checkout Payment  Kimia Farma/button_Proses""))",Chrome 78.0.3904.97,,,2019-11-14 13:14:04,2019-11-14 13:14:05,1.040s,PASSED
