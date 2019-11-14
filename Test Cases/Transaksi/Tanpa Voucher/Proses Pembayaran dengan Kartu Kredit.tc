@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Proses Pembayaran dengan Kartu Kredit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b78d4846-3441-46d4-94d5-43b0c294cfb7</testCaseGuid>
+</TestCaseEntity>

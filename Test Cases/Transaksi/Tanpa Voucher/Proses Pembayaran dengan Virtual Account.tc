@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Proses Pembayaran dengan Virtual Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cea027d3-2943-4dc1-a46a-c6cb3c4d0b42</testCaseGuid>
+</TestCaseEntity>
